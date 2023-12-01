@@ -1,0 +1,33 @@
+/***************colaps table*****************/
+.collapsible {
+
+
+    cursor: pointer;
+    font-size: 12pt;
+    font-family:iransharp;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+
+}
+
+ .collapsible:hover {
+    background-color:#9f9;
+}
+.active {
+    background-color:#ff88bb;
+}
+.content_col {
+    width: 150px;
+    display: none;
+    overflow: hidden;
+    background-color:#f1f1f1;
+}
+.col_bord tr td{
+    border: groove 1px blueviolet;
+}
+.green{
+    background-color: #22aa22;
+}
